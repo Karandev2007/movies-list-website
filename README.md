@@ -8,6 +8,7 @@ Demo: https://movies-list-website.vercel.app
 - Next.js
 - Tailwind CSS
 - React
+- Content on pages is generated using AI.
 ## Getting Started
 
 First, run the development server:
