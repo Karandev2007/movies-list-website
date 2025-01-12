@@ -6,10 +6,7 @@ export default function TheBoys() {
 
     return (
         <div className="min-h-screen bg-black text-white p-8">
-            {/* page title */}
             <h1 className="text-4xl font-bold text-center mb-8">Grue Movies</h1>
-
-            {/* back button */}
             <button
                 onClick={() => router.back()}
                 className="mt-6 px-6 py-2 bg-red-600 text-white font-semibold rounded-lg"
@@ -47,7 +44,6 @@ export default function TheBoys() {
                 </div>
             </div>
 
-            {/* cast and trailer section */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-10">
                 <div>
                     <h5 className="text-2xl font-bold">🎬 cast:</h5>
@@ -60,7 +56,7 @@ export default function TheBoys() {
                     </ul>
                 </div>
 
-                {/* trailer */}
+                {/* trailer sec */}
                 <div>
                     <h5 className="text-2xl font-bold">🎞️ trailer:</h5>
                     <iframe
