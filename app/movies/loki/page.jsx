@@ -1,7 +1,7 @@
 "use client";
 import { useRouter } from 'next/navigation';
 
-export default function StrangerThings() {
+export default function Loki() {
   const router = useRouter();
 
   return (
@@ -17,26 +17,26 @@ export default function StrangerThings() {
         &larr; back
       </button>
 
-      <h2 className="text-3xl font-bold mb-6 mt-6">Stranger Things (2016)</h2>
+      <h2 className="text-3xl font-bold mb-6 mt-6">Loki (2021)</h2>
 
       <div className="flex flex-col lg:flex-row gap-8 items-start">
         <img
-          src="https://rukminim2.flixcart.com/image/850/1000/jy4q3680/poster/t/b/f/medium-stranger-things-tv-series-poster-for-room-office-13-inch-original-imafgfzzzvkrenpd.jpeg?q=20&crop=false"
-          alt="stranger things"
+          src="https://i.gadgets360cdn.com/large/loki_poster_1622796985059.jpeg"
+          alt="Loki"
           className="w-64 h-96 object-cover rounded-md"
         />
 
         <div className="flex-1 space-y-6">
           <h5 className="text-2xl font-bold">📜 storyline:</h5>
           <p>
-            in the small town of hawkins, indiana, a young boy named will byers goes missing, setting off a chain of strange and supernatural events. his friends, along with a mysterious girl named eleven who possesses telekinetic powers, discover that his disappearance is linked to a secretive government lab and a parallel dimension called the "upside down."
+            after stealing the tesseract during the events of avengers: endgame, loki creates a new timeline and is captured by the time variance authority (tva), an organization that monitors the multiverse. loki must work with agent mobius to fix the timeline and prevent chaos across the multiverse, while discovering a deeper conspiracy.
           </p>
 
           <h5 className="text-2xl font-bold">🎥 streaming platform:</h5>
-          <p>🟥 Netflix</p>
+          <p>🟥 Disney+</p>
 
           <a
-            href="https://www.netflix.com/title/80057281"
+            href="https://www.hotstar.com/in/shows/loki/1260063451"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -52,11 +52,11 @@ export default function StrangerThings() {
         <div>
           <h5 className="text-2xl font-bold">🎬 cast:</h5>
           <ul className="list-disc pl-5 space-y-2 mt-4">
-            <li>Millie Bobby Brown as Eleven</li>
-            <li>Finn Wolfhard as Mike Wheeler</li>
-            <li>Winona Ryder as Joyce Byers</li>
-            <li>David Harbour as Jim Hopper</li>
-            <li>Gaten Matarazzo as Dustin Henderson</li>
+          <li>Tom Hiddleston as Loki</li>
+<li>Owen Wilson as Mobius M. Mobius</li>
+<li>Sophia Di Martino as Sylvie</li>
+<li>Gjokar Nunez as B-15</li>
+<li>Wunmi Mosaku as Hunter C-20</li>
           </ul>
         </div>
 
@@ -66,8 +66,8 @@ export default function StrangerThings() {
           <iframe
             width="320"
             height="180"
-            src="https://www.youtube.com/embed/b9EkMc79ZSU"
-            title="stranger things trailer"
+            src="https://www.youtube.com/embed/nW948Va-l10"
+            title="Loki Trailer"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
